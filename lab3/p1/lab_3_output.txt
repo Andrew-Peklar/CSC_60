@@ -1,0 +1,26 @@
+Script started on Tue 06 Oct 2015 07:04:19 PM PDT
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[peklara@athena p1]> ls
+csc60_stat_make_file*	csc60_stat_make_file.o	error_functions.c  error_functions.o  file_perms.h  get_num.h	      lab3output.txt  myoutput.txt  typescript
+csc60_stat_make_file.c	ename.c.inc		error_functions.h  file_perms.c       file_perms.o  lab_3_output.txt  makefile	      tlpi_hdr.h
+[peklara@athena p1]> make
+make: Nothing to be done for `all'.
+[peklara@athena p1]> s[Kcsc60_stat_make_file*
+  File: `csc60_stat_make_file.c'
+  Size: 3662 bytes	Blocks: 8	 IO Block: 524288 regular file
+Device: 1ah/26d	Inode: 28650061	Links: 1
+Access: (0600/rw-------) Uid: ( 6228/peklara )	Gid: ( 4102/stdcsc )
+Access: 2015-10-06 18:21:22 -0700
+Modify: 2015-09-25 12:37:42 -0700
+Change: 2015-10-06 18:20:35 -0700
+[peklara@athena p1]> exit
+exit
+
+Script done on Tue 06 Oct 2015 07:05:01 PM PDT

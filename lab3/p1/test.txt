@@ -1,0 +1,19 @@
+Script started on Tue 06 Oct 2015 07:08:56 PM PDT
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[peklara@athena p1]> touch -d
+touch: option requires an argument -- 'd'
+Try `touch --help' for more information.
+[peklara@athena p1]> ls
+csc60_stat_make_file*	csc60_stat_make_file.o	error_functions.c  error_functions.o  file_perms.h  get_num.h	      lab3output.txt  myoutput.txt  tlpi_hdr.h
+csc60_stat_make_file.c	ename.c.inc		error_functions.h  file_perms.c       file_perms.o  lab_3_output.txt  makefile	      test.txt	    typescript
+[peklara@athena p1]> exit
+exit
+
+Script done on Tue 06 Oct 2015 07:09:09 PM PDT
