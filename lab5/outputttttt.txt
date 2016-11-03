@@ -1,0 +1,20 @@
+# output file
+
+ 
+csc60mshell
+csc60mshell.c
+csc60mshell.o
+Lab5Output.txt
+Makefile
+output.txt
+redir.c
+test_a.txt
+test_b.txt
+testexecvp.c
+waitpid.c
+Welcome to csc60mshell!
+[csc60mshell]> Child returned status: 0
+[csc60mshell]> Child returned status: 0
+[csc60mshell]> Child returned status: 0
+[csc60mshell]> Child returned status: 0
+[csc60mshell]> 

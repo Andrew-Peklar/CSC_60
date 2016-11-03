@@ -1,0 +1,69 @@
+Script started on Fri 27 Nov 2015 03:02:10 AM PST
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 2
+
+[0] Done 	  
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 2 &
+[csc60mshell]> 
+[0] Done 	  
+sleep: missing operand
+Try `sleep --help' for more information.
+
+[0] Done 	 sleep 
+[csc60mshell]> exit
+[peklara@sp1 lab5]> sleep 100 &
+[1] 5530
+[peklara@sp1 lab5]> sleep 100 &csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 100 &
+[csc60mshell]> jobs
+[0] Running	 sleep 
+[csc60mshell]> ^Z
+[2]+  Stopped                 csc60mshell
+[peklara@sp1 lab5]> sleep 30[K[K[K[K[K[K[K[Kcsc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 30    10
+^C
+[0] Done 	  
+[csc60mshell]> sleep     exit
+[peklara@sp1 lab5]> sleep 10 &
+[3] 5557
+[peklara@sp1 lab5]> sleep 10 &csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 10 &
+[csc60mshell]> ^C
+[csc60mshell]> 
+[0] Done 	  
+[csc60mshell]> exit
+[peklara@sp1 lab5]> sl[K[Kcsc60mshell[1Psleep 10 &
+[3] 5567
+[peklara@sp1 lab5]> sl[K[Ksleep 10 &csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> xle   sleep 100 &
+[csc60mshell]> sleep 200 &
+[csc60mshell]> exit
+
+ERROR: You have 2 active processes.
+Please terminate them before exiting
+[csc60mshell]> ^Z[3]   Done                    sleep 10
+
+[4]+  Stopped                 csc60mshell
+[peklara@sp1 lab5]> exit
+exit
+There are stopped jobs.
+[peklara@sp1 lab5]> exit
+exit
+
+Script done on Fri 27 Nov 2015 03:05:56 AM PST

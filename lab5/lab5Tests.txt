@@ -1,0 +1,11 @@
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[peklara@sp1 lab5]> 
+[peklara@sp1 lab5]> qqScript started, file is typescript
+Script done, file is typescript

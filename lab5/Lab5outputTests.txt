@@ -1,0 +1,124 @@
+Script started on Mon 30 Nov 2015 03:43:31 PM PST
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[peklara@sp1 lab5]> [K[peklara@sp1 lab5]> make
+gcc -Wall -std=c99 -D_POSIX_C_SOURCE=200112L -c csc60mshell.c
+gcc csc60mshell.o -o csc60mshell
+[peklara@sp1 lab5]> makescript > lab5Tests.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcsc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 10
+Child returned status: 0
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 5 &
+[csc60mshell]> 
+[0]   Finished.   sleep 5 
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 10 &
+[csc60mshell]> jobs
+Current Jobs:
+Num    Status     Entry 
+[0]    Running 	  sleep 10  
+Child returned status: 0
+[csc60mshell]> 
+[0]   Finished.   sleep 10 
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> ^C
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 30  
+^CChild returned status: 2
+[csc60mshell]> ^C
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 10 &
+[csc60mshell]> ^C
+[csc60mshell]> 
+[0]   Finished.   sleep 10 
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 15 &
+[csc60mshell]> sleep 20 &
+[csc60mshell]> sleep 10 &
+[csc60mshell]> sleep 5 &
+[csc60mshell]> jobs
+Current Jobs:
+Num    Status     Entry 
+[0]    Running 	  sleep 15  
+[1]    Running 	  sleep 20  
+[2]    Running 	  sleep 10  
+[3]    Running 	  sleep 5  
+Child returned status: 0
+[csc60mshell]> 
+[0]   Finished.   sleep 15 
+[3]   Finished.   sleep 5 
+[2]   Finished.   sleep 10 
+[1]   Finished.   sleep 20 
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 20 &
+[csc60mshell]> sleep 10 &
+[csc60mshell]> sleep 5 &
+[csc60mshell]> jobs
+Current Jobs:
+Num    Status     Entry 
+[0]    Running 	  sleep 20  
+[1]    Running 	  sleep 10  
+[2]    Running 	  sleep 5  
+Child returned status: 0
+[csc60mshell]> 
+[2]   Finished.   sleep 5 
+[1]   Finished.   sleep 10 
+[0]   Finished.   sleep 20 
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 20    20 &
+[csc60mshell]> sleep 25 &
+[csc60mshell]> sleep 30 &
+[csc60mshell]> jobs
+Current Jobs:
+Num    Status     Entry 
+[0]    Running 	  sleep 20  
+[1]    Running 	  sleep 25  
+[2]    Running 	  sleep 30  
+Child returned status: 0
+[csc60mshell]> 
+[0]   Finished.   sleep 20 
+[1]   Finished.   sleep 25 
+[2]   Finished.   sleep 30 
+[csc60mshell]> exit
+[peklara@sp1 lab5]> csc60mshell
+Welcome to csc60mshell!
+[csc60mshell]> sleep 10 &
+[csc60mshell]> exit
+
+ERROR: You have 1 active processes.
+Please terminate them before exiting
+Child returned status: 0
+[csc60mshell]> 
+[0]   Finished.   sleep 10 
+[csc60mshell]> exit
+[peklara@sp1 lab5]> q
+bash: q: command not found
+[peklara@sp1 lab5]> exit[K[K[K[Kquit
+bash: quit: command not found
+[peklara@sp1 lab5]> exit
+exit
+
+Script done on Mon 30 Nov 2015 03:48:44 PM PST
