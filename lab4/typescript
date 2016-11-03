@@ -1,0 +1,18 @@
+Script started on Fri 27 Nov 2015 02:45:10 AM PST
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[peklara@sp1 lab4]> csc60mshell[K[peklara@sp1 lab4]> csc60mshell
+[peklara@sp1 lab4]> csc60mshell
+[peklara@sp1 lab4]> make
+make: Nothing to be done for `all'.
+[peklara@sp1 lab4]> csc60mshell
+[peklara@sp1 lab4]> exit
+exit
+
+Script done on Fri 27 Nov 2015 02:46:13 AM PST

@@ -1,0 +1,9 @@
+csc60mshell
+csc60mshell.c
+csc60mshell.o
+lab4_output.txt
+ls.out
+Makefile
+redir.c
+testexecvp.c
+waitpid.c
